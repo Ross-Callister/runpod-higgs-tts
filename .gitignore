@@ -1,0 +1,6 @@
+__pycache__/
+*.wav
+*.mp3
+*.flac
+*.opus
+.env

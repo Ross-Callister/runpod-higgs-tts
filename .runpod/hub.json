@@ -1,0 +1,19 @@
+{
+  "title": "Higgs Audio v3 TTS (voice cloning)",
+  "description": "Boson AI's Higgs Audio v3 4B text-to-speech with zero-shot voice cloning from a 3-15 s reference clip. Scale-to-zero worker: ~10 s warm for a short line, 9 GB VRAM, wav/flac/mp3/opus output. Research and non-commercial licence.",
+  "type": "serverless",
+  "category": "audio",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 20,
+    "gpuCount": 1,
+    "gpuIds": "AMPERE_24,ADA_24,AMPERE_16",
+    "allowedCudaVersions": ["12.8", "12.9", "13.0"],
+    "env": [
+      {
+        "key": "HIGGS_REVISION",
+        "input": {"name": "Model revision", "type": "string", "description": "Branch, tag or commit of multimodalart/higgs-audio-v3-tts-4b-transformers", "default": "main", "advanced": true}
+      }
+    ]
+  }
+}

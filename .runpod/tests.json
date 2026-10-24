@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "name": "default_voice",
+      "input": {"text": "Hello from Higgs Audio version three, running on RunPod Serverless.", "seed": 0},
+      "timeout": 600000
+    },
+    {
+      "name": "clone_from_url",
+      "input": {
+        "text": "This sentence was spoken in a voice cloned from a short public-domain clip.",
+        "ref_audio_url": "https://github.com/openai/whisper/raw/main/tests/jfk.flac",
+        "ref_text": "And so my fellow Americans, ask not what your country can do for you, ask what you can do for your country.",
+        "format": "mp3",
+        "seed": 0
+      },
+      "timeout": 600000
+    }
+  ],
+  "config": {
+    "gpuTypeId": "NVIDIA RTX A5000",
+    "gpuCount": 1,
+    "allowedCudaVersions": ["12.8", "12.9", "13.0"]
+  }
+}

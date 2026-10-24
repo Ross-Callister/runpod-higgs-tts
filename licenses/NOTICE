@@ -1,0 +1,10 @@
+This worker (MIT-licensed code) runs Higgs Audio v3 TTS and bundles the Higgs Audio 2 audio codec (bosonai/higgs-audio-v2-tokenizer).
+
+Boson Higgs Audio v3 is licensed under the Boson Higgs Audio v3 Research and Non-Commercial License, Copyright (c) Boson AI USA, Inc. All Rights Reserved.
+Boson Higgs Audio 2 is licensed under the Boson Community License, Copyright © Boson AI USA, Inc. All Rights Reserved.
+Meta Llama 3 is licensed under the Meta Llama 3 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
+
+Built with Higgs Audio v3 licensed from Boson AI USA, Inc.
+Built with Higgs Materials licensed from Boson AI USA, Inc., Copyright Boson AI USA, Inc., All Rights Reserved and Meta Llama 3 licensed under the Meta Llama 3 Community License, Copyright Meta Platforms, Inc., All Right Reserved.
+
+The Higgs Audio v3 model is for research and non-commercial use only; see LICENSE-higgs-audio-v3.
