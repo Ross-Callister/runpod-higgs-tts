@@ -21,7 +21,7 @@
     }
   ],
   "config": {
-    "gpuTypeId": "NVIDIA GeForce RTX 4090",
+    "gpuTypeId": "NVIDIA A40",
     "gpuCount": 1,
     "allowedCudaVersions": [
       "12.8",
